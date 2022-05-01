@@ -35,9 +35,8 @@ color: var(--color-accent);
 }
 
 .menu .link {
-font-family: var(--first-font);
 font-weight: 500;
-font-size: 14px;
+
 line-height: 1.14;
 
 letter-spacing: 0.02em;
@@ -57,9 +56,7 @@ color: var(--text-black);
 }
 
 .contact .link {
-font-family: var(--first-font);
 font-weight: 500;
-font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
@@ -75,7 +72,6 @@ color: var(--text-grey);
     background-color: var(--bg-dark);
 }
 .hero-title {
-font-family: var(--firts-font);
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -93,7 +89,6 @@ color: #FFFFFF;
 
 .hero .btn {
 font-family: var(--first-font);
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -135,19 +130,15 @@ border-radius: 4px;
   }
   
   .item-title {
-    font-family: var(--first-font);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #212121;
+    color: var(--text-black);
   }
 
 .we-do .title {
-font-family: var(--first-font);
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -157,8 +148,6 @@ color: var(--text-black);
 }
 
 .team .title {
-font-family: var(--first-font);
-font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
@@ -168,7 +157,6 @@ color: var(--text-black);
 }
 
 .team .item-title {
-font-family: var(--first-font);
 font-weight: 500;
 font-size: 16px;
 line-height: 1.18;
@@ -179,15 +167,10 @@ color: var(--text-black);
 }
 
 .team .text {
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
 font-size: 16px;
 line-height: 1.18;
 text-align: center;
 letter-spacing: 0.03em;
-
-color: #757575;
 }
 
 .footer {
@@ -195,8 +178,6 @@ color: #757575;
 }
 .footer .text {
 font-style: normal;
-font-weight: 400;
-font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
@@ -204,8 +185,7 @@ color: #FFFFFF;
 }
 
 .address .link {
-font-weight: 400;
-font-size: 14px;
+font-style: normal;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
@@ -252,7 +232,6 @@ border-radius: 4px;
 }
 
 .card .title {
-font-weight: 700;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
@@ -261,8 +240,6 @@ color: var(--text-black);
 }
 
 .card .text {
-font-family: var(--first-font);
-font-weight: 400;
 font-size: 16px;
 line-height: 1.88;
 /* identical to box height, or 188% */
@@ -270,4 +247,8 @@ line-height: 1.88;
 letter-spacing: 0.03em;
 
 color: #757575;
+}
+
+.btn {
+    cursor: pointer;
 }
