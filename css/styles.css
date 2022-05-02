@@ -31,8 +31,11 @@ letter-spacing: 0.03em;
 color: var(--color-accent);
 }
 
-.logo-design {
+.logo-design-h {
     color: black;
+}
+.logo-design-f {
+    color: #FFFFFF;
 }
 
 .menu .link {
@@ -71,6 +74,7 @@ color: var(--text-grey);
 }
 .hero {
     background-color: var(--bg-dark);
+    text-align: center;
 }
 .hero-title {
 font-weight: 900;
@@ -89,13 +93,10 @@ color: #FFFFFF;
 }
 
 .hero .btn {
-font-family: var(--first-font);
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
 
@@ -130,7 +131,7 @@ border-radius: 4px;
     padding: 0;
   }
   
-  .item-title {
+  .particular .item-title {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -182,15 +183,16 @@ letter-spacing: 0.03em;
     background-color: var(--bg-dark);
 }
 .footer .text {
-font-style: normal;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
 color: #FFFFFF;
 }
+.address {
+    font-style: normal;
+}
 
 .address .link {
-font-style: normal;
 line-height: 1.71;
 letter-spacing: 0.03em;
 
@@ -204,6 +206,7 @@ color: #ffffff99;
 }
 
 .portfolio .btn {
+    font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
